@@ -14,6 +14,6 @@ title = "kairo · 作品集"
   name = "kairo"
   headline = "后端开发 | 自托管爱好者"
   bio = "后端开发、自托管爱好者，专注全栈开发与自动化工具。"
-  links = [
-    { gitea = "https://git.nbook.icu/kairo" },
-  ]
+  # 国内 ICP 备案号（工信部）：部署到境内服务器必须填写，否则管局巡检可能被处置
+  # 替换为你的真实备案号，例如 "京ICP备12345678号"；未备案前请勿上线
+  icp = "ICP备案号：XXXXXXXX号"
