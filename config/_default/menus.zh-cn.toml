@@ -1,0 +1,32 @@
+# -- 主菜单 --
+
+[[main]]
+  identifier = "home"
+  name = "首页"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "作品集"
+  pageRef = "projects"
+  weight = 20
+
+[[main]]
+  identifier = "gogs"
+  name = "Git"
+  pre = "gogs"
+  url = "https://git.nbook.icu/kairo"
+  weight = 30
+
+# -- 底部菜单 --
+
+[[footer]]
+  name = "作品集"
+  pageRef = "projects"
+  weight = 10
+
+[[footer]]
+  name = "Git"
+  pre = "gogs"
+  url = "https://git.nbook.icu/kairo"
+  weight = 20

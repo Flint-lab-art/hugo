@@ -1,0 +1,19 @@
+# -- 中文语言与作者信息 --
+
+locale = "zh-cn"
+label = "简体中文"
+title = "kairo · 作品集"
+
+[params]
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  description = "后端开发 | 自托管爱好者"
+
+[params.author]
+  name = "kairo"
+  headline = "后端开发 | 自托管爱好者"
+  bio = "后端开发、自托管爱好者，专注全栈开发与自动化工具。"
+  links = [
+    { gitea = "https://git.nbook.icu/kairo" },
+  ]

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.75">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg)"/>
+  <rect width="900" height="600" fill="url(#glow)"/>
+  <g stroke="#E0F2FE" stroke-opacity="0.12" stroke-width="1.5">
+    <path d="M0,470 L900,220"/>
+    <path d="M0,500 L900,250"/>
+    <path d="M0,530 L900,280"/>
+    <path d="M0,430 L900,180"/>
+  </g>
+  <g fill="#93C5FD" opacity="0.16">
+    <circle cx="120" cy="120" r="2"/><circle cx="220" cy="160" r="2"/><circle cx="700" cy="100" r="2"/><circle cx="800" cy="200" r="2"/>
+    <circle cx="150" cy="480" r="2"/><circle cx="760" cy="500" r="2"/>
+  </g>
+  <g transform="translate(450,215)" fill="none" stroke="#BFDBFE" stroke-width="9" stroke-linecap="round" opacity="0.9">
+    <path d="M-46,-34 L-30,-30 L-30,30 L-46,34"/>
+    <path d="M46,-34 L30,-30 L30,30 L46,34"/>
+  </g>
+  <text x="450" y="330" text-anchor="middle" font-family="'PingFang SC','Microsoft YaHei',system-ui,sans-serif" font-size="58" font-weight="700" fill="#FFFFFF">官网检索器前端</text>
+  <text x="450" y="392" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#93C5FD">Vue 3 · Vite · JavaScript</text>
+  <rect x="405" y="430" width="90" height="5" rx="2.5" fill="#60A5FA"/>
+</svg>
